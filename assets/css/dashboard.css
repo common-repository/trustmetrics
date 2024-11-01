@@ -1,0 +1,181 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+#login-content{
+    height: 95vh !important;
+}
+.text-center {
+    text-align: center;
+}
+.selectbox{
+    padding: 3px 10px !important;
+    background-color: #FFFFFF !important;
+    max-width: 100% !important;
+}
+
+.modal-login {
+    color: #636363;
+    width: 400px;
+    margin: auto !important;
+}
+
+.modal-login .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.modal-login .modal-header {
+    border-bottom: none;
+    position: relative;
+    justify-content: center;
+}
+
+.modal-login h4 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.modal-login .form-group {
+    position: relative;
+}
+
+.modal-login i {
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    font-size: 18px;
+}
+
+.modal-login .form-control {
+    padding-left: 15px;
+}
+
+.modal-login .form-control:focus {
+    border-color: #12b5e5;
+}
+
+.modal-login .form-control,
+.modal-login .btn {
+    min-height: 40px;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.modal-login .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.modal-login .forgot-link {
+    color: #12b5e5;
+    float: right;
+}
+
+.modal-login .btn,
+.modal-login .btn:active {
+    border: none;
+    background: #12b5e5 !important;
+    line-height: normal;
+}
+
+.modal-login .btn:hover,
+.modal-login .btn:focus {
+    background: #10a3cd !important;
+}
+
+.modal-login .modal-footer {
+    color: #999;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: -20px;
+    justify-content: center;
+}
+
+.modal-login .modal-footer a {
+    color: #12b5e5;
+}
+
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
+
+.bottom-action {
+    font-size: 14px;
+}
+
+.bottom-action input {
+    position: relative;
+    top: 1px;
+}
+.star{
+   margin-top: 3px;
+}
+.star span{
+    display: inline-block;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.camp-theader{
+    background: #F7F7F7;
+}
+.camp-theader th{
+    border-bottom-width: 0px !important ;
+}
+.camp-tsubheader th{
+    height: 30px !important;
+    font-weight: 400 !important;
+    padding: 5px 20px !important;
+    border-top-width: 1px !important ;
+    border-bottom-width: 0px !important;
+    border-top-color: #e6e1e1 !important;
+    border-top-style: solid;
+}
+.divider{
+    padding: 0px; margin:0px; 
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #c5c0c0 !important;
+}
+.status-sent{
+    background: #E8F5E9 !important;
+    color: #4a9245 !important;
+    width: 50px !important;
+    white-space: nowrap !important;
+}
+.status-open{
+    background: #E3F2FD !important;
+    color: #2884d5 !important;
+    width: 50px !important;
+    white-space: nowrap !important;
+}
+.status-failed{
+    background: #FBEBED !important;
+    color: #E94033 !important;
+    width: 50px !important;
+    white-space: nowrap !important;
+}
+.status-pending{
+    background: #FFFDE7 !important;
+    color: #c3ba68 !important;
+    width: 60px !important;
+    white-space: nowrap !important;
+}
+.status-unsubscribed{
+    background: #E0E0E0 !important;
+    color: #464444 !important;
+    width: 85px !important;
+    white-space: nowrap !important;
+}
+.compaign-table td{
+    border-top: 0px !important;
+    border-bottom: thin solid #ebe8e8 !important;
+    white-space: nowrap !important;
+}
+
+

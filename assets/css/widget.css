@@ -1,0 +1,112 @@
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif !important;
+}
+.widget-page{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.widget-page .title {
+      font-size: 1.17em;
+      color: #1a2551;
+      line-height: 66px;
+    margin-left: 30px;
+    background: #f5f6f7;
+}
+.widget-page .top-bar {
+    background: #f5f6f7;
+}
+.widget-page .filters {
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+    background: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.widget-page .filters input{
+    width: 100%;
+}
+.widget-page .filters .col {
+    border: none !important;
+    border-right: 1px solid #d5d5d5 !important;
+    max-width: auto;
+    padding: 10px;
+}
+.widget-page .filters .col:first-child{
+    border-left: 0px solid #d5d5d5 !important;
+}
+.widget-page .filters .col:last-child{
+    border-right: 0px solid #d5d5d5 !important;
+}
+.widget-page .filter-content {
+    border: none;
+}
+.widget-page .card {
+    max-width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+}
+.widget-page .card-header {
+    background: #fff;
+    border: none;
+}
+.widget-page ul {
+    width: 100%;
+    transform: translate(0px, 0px) !important;
+}
+.widget-page span.inactive {
+    padding: 7px;
+    background-color: #ff806c;
+    border-color: #ff806c;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.widget-page span.active {
+    padding: 7px;
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.widget-page .type {
+    padding: 7px;
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+    border-radius: 20px;
+    text-align: center;
+}
+.widget-page .show_hide {
+    -webkit-box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.widget-page .select {
+    border: none;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.widget-page .dataTables_wrapper .dataTables_length select {
+    padding: -1px !important;
+}
+.widget-page .card {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+@media (max-width: 767px) {
+    .widget-page .filters {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .widget-page .card {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+.wp-core-ui select {
+    background: white !important;
+    content: 'X' !important;
+}
